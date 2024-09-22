@@ -52,9 +52,9 @@ function ProductsDetails() {
 
       <div className='buttons'>
       <div className="quantity-controls">
-          <button onClick={decreaseQuantity}> <img src="/public/assets/8.jpg"></img> </button>
+          <button onClick={decreaseQuantity}> <img src="/assets/8.jpg"></img> </button>
           <span>{quantity}</span>
-          <button onClick={increaseQuantity}> <img src="/public/assets/9.jpg"></img></button>
+          <button onClick={increaseQuantity}> <img src="/assets/9.jpg"></img></button>
         </div>
         <div>
       <button onClick={() => addItem(product)} className="add-cart">Add to cart</button>
@@ -66,7 +66,7 @@ function ProductsDetails() {
       <p> <span>Category</span>
       :{product.category}</p>
       <p> <span>Tags   </span>:{product.category}, Home, Shop</p>
-      <p><span>Share  </span> :<img src="/public/assets/16.jpg"></img>
+      <p><span>Share  </span> :<img src="/assets/16.jpg"></img>
       <img src="/public/assets/18.jpg"></img>
       <img src="/public/assets/10.jpg"></img></p>
       </div>
