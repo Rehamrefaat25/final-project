@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import cart from '/public/assets/Vector.png';
+import cart from '/assets/Vector.png';
 import { useCart } from 'react-use-cart'
 
 import './Dropdown.css';

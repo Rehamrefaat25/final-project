@@ -5,7 +5,7 @@ import {CartProvider,useCart } from 'react-use-cart';
 import Dropdown from '../Dropdown/Dropdown'
 import './Navbar.css'
 function Navbar() {
-  const{totalItems}=useCart()
+  // const{totalItems}=useCart()
 
   return (
     <CartProvider>
