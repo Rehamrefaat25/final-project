@@ -1,0 +1,50 @@
+.header h1{
+    text-align: center;
+}
+.categories{
+    display: flex;
+    justify-content:space-around ;
+}
+.home-page{
+    background:white
+}
+.categories img{
+    width:250px;
+    height:250px
+}
+.categories h3{
+    text-align:center;
+    padding:20px
+}
+@media (max-width: 768px) {
+    .icon-cart {
+      display: none;
+    }
+  }
+  @media (max-width: 768px) {
+    .categories {
+      flex-direction: column; /* تغيير الاتجاه ليكون عمودياً */
+      align-items: center; /* توسيط العناصر */
+    }
+  
+    .category-item {
+      margin-bottom: 20px; /* إضافة مسافة بين العناصر */
+    }
+  
+    /* تغيير حجم الصور والعناوين في الشاشات الصغيرة */
+    .categories img {
+      width: 150px; /* تقليل عرض الصورة */
+      height: 150px; /* تقليل ارتفاع الصورة */
+    }
+  
+    .categories h3 {
+      font-size: 1.2rem; /* تقليل حجم الخط للعناوين */
+    }
+  }
+  @media (max-width: 768px) {
+    .help {display: none;
+   
+    }
+    .news{display:none}
+  }
+      

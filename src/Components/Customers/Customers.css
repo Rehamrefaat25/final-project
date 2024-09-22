@@ -1,0 +1,29 @@
+.customer{
+    display: flex;
+    justify-content:space-around;
+    background-color:#FAF3EA;
+padding: 20px;
+}
+.customer span{
+    opacity: .5;}
+
+.customer-item span {text-align: center;
+    margin-left: 50px;
+}
+
+
+@media (max-width: 768px) {
+    .customer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .customer-item {
+        width: 100%; 
+        justify-content: flex-start; 
+    }
+
+    .customer-item img {
+        margin: 0 10px 0 0
+    }
+}

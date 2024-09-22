@@ -1,0 +1,47 @@
+.footer-container{
+    display:flex;
+    justify-content: center;
+    column-gap: 50px;
+    background-color: white;
+    padding:50px
+
+}
+.links a{
+    display: block;
+    text-decoration: none;
+    margin:10px;
+    color:black
+
+}
+.links label{
+    margin: 15px;
+    opacity: .5;
+}
+.news label{
+    display: block;
+    opacity: .5;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.news input{
+    border:none;
+    border-bottom: 1px solid black;
+    opacity: .5;
+    margin-right: 10px;
+
+}
+.news button{border:none;
+background-color: transparent;
+    border-bottom: 1px solid black;
+}
+.news button:hover{
+    cursor: pointer;
+}
+.help label{
+    margin:15px;
+    opacity: .5;
+}
+.fun p{ opacity: .5;}
+.rights{
+    margin-left: 50px;
+}

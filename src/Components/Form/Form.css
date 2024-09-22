@@ -1,0 +1,28 @@
+form label{
+    display: block;
+    margin:10px;
+    font-weight: 500;
+}
+form input ,textarea{
+    padding:15px;
+    opacity: .5;
+    width: 300px;
+    border-color: rgb(231, 227, 227);
+    border-radius: 10px;
+}
+form button{
+    color:white;
+    text-align: center;
+width: 150px;
+padding:10px;
+border: none;
+    background-color:#b88e2f;
+    border-radius: 5px;
+    margin:15px 0;
+}
+.form{
+    background-color: white;
+}
+.error{
+    color:red;
+}
