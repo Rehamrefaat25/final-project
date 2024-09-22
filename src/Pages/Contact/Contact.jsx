@@ -1,6 +1,6 @@
 import React from 'react'
 import Form from '../../Components/Form/Form'
-import './contact.css'
+import './Contact.css'
 import Customers from '../../Components/Customers/Customers'
 const contactIcons=[
   {
