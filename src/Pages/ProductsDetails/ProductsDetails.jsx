@@ -67,8 +67,8 @@ function ProductsDetails() {
       :{product.category}</p>
       <p> <span>Tags   </span>:{product.category}, Home, Shop</p>
       <p><span>Share  </span> :<img src="/assets/16.jpg"></img>
-      <img src="/public/assets/18.jpg"></img>
-      <img src="/public/assets/10.jpg"></img></p>
+      <img src="/assets/18.jpg"></img>
+      <img src="/assets/10.jpg"></img></p>
       </div>
       
     </div>
